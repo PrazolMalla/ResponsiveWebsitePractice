@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+   }
+/* * navbar starts here **/
+#top-bar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position:absolute;
+    top:0;
+    box-sizing: border-box;
+}
+
+#top-bar li{
+    list-style: none;
+    display: inline-block;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.menu-item{
+   margin-right: 20px;
+   position: relative;
+   top: 20%;
+   left: 70%;
+   text-align: center;
+   padding-bottom: 10px;
+   font-size: 14px;
+   font-family:'Open Sans',sans-serif;
+   font-weight: 900;
+   box-sizing: border-box;
+   cursor:pointer
+}
+#dropdown-menu{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-top:3px solid lime ;
+    box-shadow: 1px 2px 5px gray;
+    position: relative;
+    /* top: %; */
+    left: 68%;
+    display: none;
+    
+}
+
+#dropdown-menu li{
+    width: 120px;
+    list-style: none;
+    text-align: left;
+    line-height: 1.3;
+    font-family: 'Open Sans',sans-serif;
+    border-bottom: 1px solid #ccc;
+    
+
+}
+
+#drop{
+    position: relative;
+    z-index: 10;
+}
+
+#drop:hover
+#dropdown-menu{
+    display: block;
+  
+}
+
+#dropdown-menu:hover{
+    display: block;
+}
+
+#btn-buy{
+    background-color: lime;
+    color: white;
+    border: none;
+    width: 120px;
+    height:35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family:'Open Sans',sans-serif;
+    position: relative;
+    top: 20%;
+    left: 70%;
+    /* font-weight: 900; */
+    cursor: pointer;
+}
+
+
+
+/* *navbar ends here* */
+
+
+#landing{
+    height: 100vh;
+    background-color:rgba(255,255,255, 0.8);
+    background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=732&q=80");
+    background-size: cover;
+ 
+}
+
+#landing h1{
+
+    padding-top: 10%;
+    letter-spacing: 10px;
+    font-size: 48px;
+    text-align: center;
+    font-family:'Open Sans',sans-serif;
+    font-weight: 800;
+}
+
+#landing p{
+    padding-left: 5%;
+    font-size: 14px;
+    text-align: center;
+    font-family:'Open Sans',sans-serif;
+}
+
