@@ -120,6 +120,9 @@ h1{
     font-weight: 800;
 }
 
+#landing h1{
+    padding-top: 15%;
+}
 #landing p{
     padding-left: 5%;
     font-size: 14px;
@@ -289,42 +292,55 @@ h4{
     margin-right: auto;
 }
 #testimonial-wrapper{
-    margin-top: 4%;
+    margin: 4% 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 2%;
+    
 }
 
 .card{
-    width: 350px;
+    width: 355px;
     height: 450px;
     background-color: rgba(117, 119, 128, 0.1);
+    border-top-left-radius:15% ;
+    margin-right: 2%;
 }
 
-.card img{
-    width: 90px;
-    height: 60px;
-
-}
 
 .card .circle{
-   
-    width:70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color:#EF6461 ;
-    margin-left: auto;
-    margin-right: auto;
-  
+    width: 85px;
+    height: 85px ;
+    margin-top: 5%;
+    overflow: hidden;
 }
 
+.profile-pic{
+    width: 85px;
+    height: 90px;
+    border-radius: 50%;
+    
+
+}
+h3{
+    text-align: center;
+}
+
+.card p{
+    padding: 0 10%;
+    text-align: center;
+    color: rgba(117, 119, 128, 0.8);
+}
 @media screen and (max-width:450px) {
     .step1{
         width: 100%;
     }
     .store-quality{
         width: 80%;
+    }
+    .card{
+        width: 95%;
+        margin-bottom: 5%;
     }
 }
 
