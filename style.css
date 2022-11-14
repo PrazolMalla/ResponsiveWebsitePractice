@@ -344,3 +344,53 @@ h3{
     }
 }
 
+#newsletter{
+    width: 100%;
+    margin:0
+}
+
+#strawberry{
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1467825487722-2a7c4cd62e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size:cover ;
+   
+}
+
+
+aside{
+    display: inline-block;
+    height: 100vh;
+    width: 29%;
+    vertical-align: top;
+    
+    background-image: url(
+        "https://images.unsplash.com/photo-1592457765434-70aacc2da743?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    );
+    background-size: cover;
+    margin: 0;
+
+}
+
+aside div{
+    height: 100vh;
+    background-color: rgba(248, 241, 255,0.8);
+    margin-top: -50px;
+    box-sizing: border-box;
+}
+
+aside h1{
+    padding-top: 40%;
+    letter-spacing: 0;
+}
+
+aside p{
+    color: rgba(117, 119, 128, 1);
+   
+    padding: 0 30%;
+    padding-bottom:10px;
+    margin-top: -36px;
+    /* margin-left: -19px; */
+    text-align: left;
+}
