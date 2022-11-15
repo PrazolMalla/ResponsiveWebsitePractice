@@ -331,18 +331,7 @@ h3{
     text-align: center;
     color: rgba(117, 119, 128, 0.8);
 }
-@media screen and (max-width:450px) {
-    .step1{
-        width: 100%;
-    }
-    .store-quality{
-        width: 80%;
-    }
-    .card{
-        width: 95%;
-        margin-bottom: 5%;
-    }
-}
+
 
 #newsletter{
     width: 100%;
@@ -393,4 +382,91 @@ aside p{
     margin-top: -36px;
     /* margin-left: -19px; */
     text-align: left;
+}
+
+#email{
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 79%;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#sub-btn{
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    position: absolute;
+    left: 79%;
+    background-color: rgb(255, 67, 101);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#sub-btn:hover{
+    border: 2px solid rgb(255, 67, 101);
+    color: rgb(255, 67, 101);
+    background-color: transparent;
+}
+
+@media screen and (max-width:450px) {
+
+    #top-bar div{
+        display: none;
+    }
+    #top-bar li{
+        display: none;
+    }
+
+    #top-bar li:first-child{
+        display: block;
+    }
+
+    #top-bar btn-buy{
+        margin-bottom: 20px;
+    }
+    .step1{
+        width: 100%;
+    }
+    .store-quality{
+        width: 80%;
+    }
+    .card{
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    #testi > p{
+        width: 300px;
+        margin-top: -2%;
+        font-size: 16px;
+        word-spacing:2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #strawberry{
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+    }
+
+    #sub-btn{
+        position: absolute;
+        left: 25%;
+        margin-top: 10%;
+    }
+    #email{
+        position: absolute;
+        left: 25%;
+    }
 }
