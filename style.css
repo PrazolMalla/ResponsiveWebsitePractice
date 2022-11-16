@@ -29,7 +29,7 @@ body{
    margin-right: 20px;
    position: relative;
    top: 20%;
-   left: 68%;
+   left: 62%;
    text-align: center;
    padding-bottom: 10px;
    font-size: 14px;
@@ -44,7 +44,7 @@ body{
     display: inline-block;
     position: relative;
     top: 20%;
-    left: 64%;
+    left: 58%;
 }
 #dropdown-menu{
     width: 200px;
@@ -93,7 +93,7 @@ body{
     font-family:'Open Sans',sans-serif;
     position: relative;
     top: 20%;
-    left: 68%;
+    left: 63%;
     cursor: pointer;
 }
 
@@ -417,6 +417,31 @@ aside p{
     background-color: transparent;
 }
 
+
+#counter-sec{
+    background-color: #FBFBFF;
+    margin-bottom: 5%;
+}
+#counter{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.count{
+    width: 20%;
+}
+.count h1{
+    letter-spacing: 0;
+}
+
+.count p{
+  margin-top: -15% ;
+  color:#3FA7D6;
+  font-style: italic;
+} 
+
+
 @media screen and (max-width:450px) {
 
     #top-bar div{
@@ -432,6 +457,7 @@ aside p{
 
     #top-bar btn-buy{
         margin-bottom: 20px;
+        display: hidden;
     }
     .step1{
         width: 100%;
@@ -469,4 +495,12 @@ aside p{
         position: absolute;
         left: 25%;
     }
+
+    /* #counter-sec{
+        margin-bottom: 30%;
+    } */
+    .count{
+        width: 80vw;
+    }
 }
+
