@@ -659,6 +659,9 @@ footer{
         margin-left: 10%;
     }
 
+    #contact-details p{
+        width: 250px;
+    }
    #get-in-touch p{
     width: 250px;
    }
@@ -672,7 +675,7 @@ footer{
     }
 
     footer{
-        width: 300px;
+        width: 100%;
     }
 }
 
