@@ -568,6 +568,14 @@ form textarea{
     font-weight: 700;
 }
 
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+
 @media screen and (max-width:450px) {
 
     #top-bar div{
@@ -662,6 +670,11 @@ form textarea{
     form textarea {
         width:250px;
     }
+
+    footer{
+        width: 300px;
+    }
 }
-}
+
+
 
